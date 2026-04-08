@@ -1,0 +1,73 @@
+site_name: xcolacique
+site_url: https://xcolacique.github.io
+site_description: Tutoriais e laboratórios de informática
+site_author: xcolacique
+
+theme:
+  name: material
+  language: pt-BR
+  palette:
+    - scheme: default
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Modo escuro
+    - scheme: slate
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Modo claro
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - content.code.annotate
+    - toc.follow
+
+plugins:
+  - search:
+      lang: pt
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+nav:
+  - Início: index.md
+  - Informática:
+    - informatica/index.md
+    - Labs Laravel:
+      - informatica/labs-laravel/index.md
+      - informatica/labs-laravel/instalacao.md
+      - informatica/labs-laravel/primeiros-passos.md
+    - Laravel + Drupal:
+      - informatica/laravel-drupal/index.md
+      - informatica/laravel-drupal/configuracao.md
+    - Outros:
+      - informatica/outros/index.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/xcolacique
