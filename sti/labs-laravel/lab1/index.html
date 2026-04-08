@@ -12,9 +12,13 @@
         <meta name="author" content="xcolacique">
       
       
-        <link rel="canonical" href="https://xcolacique.github.io/sti/labs-laravel/instalacao/">
+        <link rel="canonical" href="https://xcolacique.github.io/sti/labs-laravel/lab1/">
       
       
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../lab2/">
       
       
         
@@ -25,7 +29,7 @@
     
     
       
-        <title>Instalação do Laravel - xcolacique</title>
+        <title>Lab1 - xcolacique</title>
       
     
     
@@ -75,11 +79,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#instalacao-do-laravel" class="md-skip">
-          Pular para conteúdo
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -110,7 +109,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Instalação do Laravel
+              Lab1
             
           </span>
         </div>
@@ -228,10 +227,12 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
+      <li class="md-tabs__item md-tabs__item--active">
         <a href="../" class="md-tabs__link">
           
   
@@ -348,28 +349,31 @@
       
   
   
+    
   
   
+  
     
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
-        
-          
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -387,7 +391,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -430,17 +434,24 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../lab1.md" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
     
   
-    None
+    Lab1
   
 
     
@@ -449,6 +460,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -461,14 +473,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../lab2.md" class="md-nav__link">
+      <a href="../lab2/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    None
+    Lab2
   
 
     
@@ -712,82 +724,6 @@
   
   
   
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Índice
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#pre-requisitos" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Pré-requisitos
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#1-instalando-o-composer" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        1. Instalando o Composer
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2-criando-o-projeto-laravel" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        2. Criando o projeto Laravel
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#3-subindo-o-servidor-de-desenvolvimento" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        3. Subindo o servidor de desenvolvimento
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#4-estrutura-do-projeto" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        4. Estrutura do projeto
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#5-configurando-o-env" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        5. Configurando o .env
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -804,75 +740,9 @@
 
 
 
-<h1 id="instalacao-do-laravel">Instalação do Laravel<a class="headerlink" href="#instalacao-do-laravel" title="Permanent link">&para;</a></h1>
-<p>Neste lab você vai configurar um ambiente Laravel do zero na sua máquina local.</p>
-<hr />
-<h2 id="pre-requisitos">Pré-requisitos<a class="headerlink" href="#pre-requisitos" title="Permanent link">&para;</a></h2>
-<p>Antes de começar, certifique-se de ter instalado:</p>
-<ul>
-<li><strong>PHP</strong> &gt;= 8.1</li>
-<li><strong>Composer</strong> (gerenciador de pacotes do PHP)</li>
-<li><strong>Node.js</strong> &gt;= 16 (para assets com Vite)</li>
-</ul>
-<hr />
-<h2 id="1-instalando-o-composer">1. Instalando o Composer<a class="headerlink" href="#1-instalando-o-composer" title="Permanent link">&para;</a></h2>
-<p>O Composer é essencial para qualquer projeto Laravel. Se ainda não tiver, instale:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c1"># Linux / macOS</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>curl<span class="w"> </span>-sS<span class="w"> </span>https://getcomposer.org/installer<span class="w"> </span><span class="p">|</span><span class="w"> </span>php
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>sudo<span class="w"> </span>mv<span class="w"> </span>composer.phar<span class="w"> </span>/usr/local/bin/composer
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="c1"># Verificar instalação</span>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>composer<span class="w"> </span>--version
-</span></code></pre></div>
-<hr />
-<h2 id="2-criando-o-projeto-laravel">2. Criando o projeto Laravel<a class="headerlink" href="#2-criando-o-projeto-laravel" title="Permanent link">&para;</a></h2>
-<p>Com o Composer instalado, crie um novo projeto:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>composer<span class="w"> </span>create-project<span class="w"> </span>laravel/laravel<span class="w"> </span>meu-projeto
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="nb">cd</span><span class="w"> </span>meu-projeto
-</span></code></pre></div>
-<blockquote>
-<p>💡 Isso vai baixar o Laravel e todas as dependências automaticamente.</p>
-</blockquote>
-<hr />
-<h2 id="3-subindo-o-servidor-de-desenvolvimento">3. Subindo o servidor de desenvolvimento<a class="headerlink" href="#3-subindo-o-servidor-de-desenvolvimento" title="Permanent link">&para;</a></h2>
-<p>O Laravel tem um servidor embutido via Artisan:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>php<span class="w"> </span>artisan<span class="w"> </span>serve
-</span></code></pre></div>
-<p>Abra o browser em <code>http://localhost:8000</code> — você vai ver a tela de boas-vindas do Laravel.</p>
-<hr />
-<h2 id="4-estrutura-do-projeto">4. Estrutura do projeto<a class="headerlink" href="#4-estrutura-do-projeto" title="Permanent link">&para;</a></h2>
-<p>Após a instalação, a estrutura principal é:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>meu-projeto/
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>├── app/
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>│   ├── Http/
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>│   │   └── Controllers/   # Seus controllers
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>│   └── Models/            # Seus models
-</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>├── routes/
-</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>│   └── web.php            # Rotas da aplicação
-</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>├── resources/
-</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>│   └── views/             # Templates Blade
-</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>├── database/
-</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a>│   └── migrations/        # Migrações do banco
-</span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a>└── .env                   # Variáveis de ambiente
-</span></code></pre></div>
-<hr />
-<h2 id="5-configurando-o-env">5. Configurando o <code>.env</code><a class="headerlink" href="#5-configurando-o-env" title="Permanent link">&para;</a></h2>
-<p>O arquivo <code>.env</code> na raiz do projeto guarda as configurações do ambiente. O mais importante inicialmente é o banco de dados:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>DB_CONNECTION=mysql
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>DB_HOST=127.0.0.1
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>DB_PORT=3306
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>DB_DATABASE=meu_banco
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>DB_USERNAME=root
-</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>DB_PASSWORD=sua_senha
-</span></code></pre></div>
-<p>Depois de editar, rode:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>php<span class="w"> </span>artisan<span class="w"> </span>config:clear
-</span></code></pre></div>
-<hr />
-<div class="admonition success">
-<p class="admonition-title">Pronto!</p>
-<p>Seu ambiente Laravel está configurado. Próximo passo: <a href="../primeiros-passos/">Primeiros Passos →</a></p>
-</div>
+  <h1>Lab1</h1>
+
+
 
 
 
