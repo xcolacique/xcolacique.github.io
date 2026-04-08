@@ -55,17 +55,15 @@ markdown_extensions:
 
 nav:
   - Início: index.md
-  - Informática:
-    - informatica/index.md
-    - Labs Laravel:
-      - informatica/labs-laravel/index.md
-      - informatica/labs-laravel/instalacao.md
-      - informatica/labs-laravel/primeiros-passos.md
-    - Laravel + Drupal:
-      - informatica/laravel-drupal/index.md
-      - informatica/laravel-drupal/configuracao.md
-    - Outros:
-      - informatica/outros/index.md
+  - Labs Laravel:
+      - sti/labs-laravel/index.md
+      - sti/labs-laravel/instalacao.md
+      - sti/labs-laravel/primeiros-passos.md
+  - Laravel + Drupal:
+      - sti/laravel-drupal/index.md
+      - sti/laravel-drupal/configuracao.md
+  - Outros:
+      - sti/outros/index.md
 
 extra:
   social:
