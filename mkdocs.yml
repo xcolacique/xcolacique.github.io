@@ -59,11 +59,9 @@ nav:
   - STI:
     - sti/index.md
     - Laravel:
-      - sti/laravel/index.md
-      - Labs: sti/laravel/labs.md
+      - Labs Laravel: sti/laravel/labs.md
     - Drupal:
-      - sti/drupal/index.md
-      - Labs: sti/drupal/labs.md
+      - Labs Drupal: sti/drupal/labs.md
 
 extra:
   social:
