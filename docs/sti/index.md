@@ -1,26 +1,15 @@
-# Informática
-
-Tutoriais e laboratórios organizados por tecnologia.
+# STI
 
 ---
 
 ## Seções
 
-### 🔬 Labs Laravel
-Projetos práticos e exercícios com Laravel — do zero ao deploy.
-
-[Acessar →](./labs-laravel/index.md)
+### Laravel
+[Acessar →](./laravel/index.md)
 
 ---
 
-### 🔗 Laravel + Drupal
+### Drupal
 Como integrar o Laravel com o CMS Drupal em projetos reais.
 
-[Acessar →](./laravel-drupal/index.md)
-
----
-
-### 📦 Outros
-Ferramentas, configurações e anotações que não se encaixam nas seções acima.
-
-[Acessar →](./outros/index.md)
+[Acessar →](./drupal/index.md)
