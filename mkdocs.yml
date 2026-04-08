@@ -1,6 +1,6 @@
 site_name: xcolacique
 site_url: https://xcolacique.github.io
-site_description: Tutoriais e laboratórios de informática
+site_description: ioxcolacique
 site_author: xcolacique
 
 theme:
@@ -24,8 +24,9 @@ theme:
     code: JetBrains Mono
   features:
     - navigation.tabs
-    - navigation.sections
-    - navigation.expand
+    - navigation.tabs.sticky
+    #- navigation.sections
+    #- navigation.expand
     - navigation.top
     - search.highlight
     - search.suggest
