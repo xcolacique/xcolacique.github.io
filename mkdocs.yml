@@ -57,11 +57,11 @@ nav:
   - Início: index.md
   - Labs Laravel:
       - sti/labs-laravel/index.md
-      - sti/labs-laravel/instalacao.md
-      - sti/labs-laravel/primeiros-passos.md
+      - sti/labs-laravel/lab1.md
+      - sti/labs-laravel/lab2.md
   - Laravel + Drupal:
       - sti/laravel-drupal/index.md
-      - sti/laravel-drupal/configuracao.md
+      - sti/laravel-drupal/lab1.md
   - Outros:
       - sti/outros/index.md
 
