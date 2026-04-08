@@ -1,6 +1,6 @@
-# Laravel + Drupal
+# Drupal
 
-Guias sobre como integrar o Laravel com o ecossistema Drupal.
+
 
 ---
 
@@ -8,4 +8,4 @@ Guias sobre como integrar o Laravel com o ecossistema Drupal.
 
 | Tutorial | Descrição |
 |----------|-----------|
-| [Configuração](./configuracao.md) | Setup inicial da integração |
+| [Lab1](./lab1.md) | Setup inicial da integração |
